@@ -12,7 +12,9 @@ Dimension：                [24570, NUM_TOKENS]
 Content:                   noisy waveforms
 
 Clean ouput data filename: target_train.mat
+
 Dimension:                 [16384, NUM_TOKENS]
+
 Content:                   256 mu-law quantized bin index of clean waveforms
 
 The above become numpy arrays after loaded into python,
