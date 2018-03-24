@@ -5,8 +5,10 @@ Deep learning based Speech Beamforming
 tensorflow, scipy, fftw, h5py
 
 ## Train Wavenet-based enhancement model
-Noisy input data filename: noisy_train.mat  
+Noisy input data filename: noisy_train.mat
+
 Dimension：                [24570, NUM_TOKENS]
+
 Content:                   noisy waveforms
 
 Clean ouput data filename: target_train.mat
