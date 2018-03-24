@@ -7,7 +7,7 @@ tensorflow, scipy, fftw, h5py
 ## Train Wavenet-based enhancement model
 Noisy input data filename: noisy_train.mat
 
-Dimension：                [24570, NUM_TOKENS]
+Dimension:                 [24570, NUM_TOKENS]
 
 Content:                   noisy waveforms
 
