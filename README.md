@@ -28,4 +28,6 @@ python bawn_sp_multi_gpu_train_v2.py /logdir NUM_GPUS
 ## Demo using pre-trained model
 A pre-trained enhancement model using 109 speakers and 100 noises is available in assets.
 
-In demo.
+"demo.ipynb" contains a complete enhancement and beamforming workflow using a short 8-channel noisy speech.
+
+The noisy input is a [length, NUM_CHANNELS] matrix, where each column is a channel. Another input contains only the multi-channel noise itself is required in order to compute signal-to-noise-ratio.
