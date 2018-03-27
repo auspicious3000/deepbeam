@@ -24,3 +24,8 @@ To train the enhancement model, place the data in the same directory as the trai
 then execute the following:
 
 python bawn_sp_multi_gpu_train_v2.py /logdir NUM_GPUS
+
+## Demo using pre-trained model
+A pre-trained enhancement model using 109 speakers and 100 noises is available in assets.
+
+In demo.
